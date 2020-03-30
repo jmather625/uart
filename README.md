@@ -2,7 +2,7 @@
 An implementation of UART RS-232 that can synthesize of an FPGA.
 
 # Source
-You can find the source code for transmission and receiving in `src/modules`. There are tests and a makefile in `src`. Run `make <tx or rx>` to get the Gtkwave output. The `open` command on Mac opens .vcd files with Gtkwave, but on other OS's this line will have to be changed in the Makefile.
+You can find the source code for transmission and receiving in `src/modules`. There are tests and a makefile in `src`. Run `make <tx, rx, or top_level>` to get the Gtkwave output. The `open` command on Mac opens .vcd files with Gtkwave, but on other OS's this line will have to be changed in the Makefile.
 
 The default settings are configured for a 100 Mhz clock operating at 9600 baud. Set the `CLKS_PER_BIT` paramater to your chip's clock frequency divided by the desired baud rate (max 115200).
 
