@@ -1,0 +1,8 @@
+.vscode
+comms/bounceback
+
+fpga-bounceback/fpga-bounceback.cache
+fpga-bounceback/fpga-bounceback.hw
+fpga-bounceback/fpga-bounceback.ip_user_files
+fpga-bounceback/fpga-bounceback.runs
+fpga-bounceback/fpga-bounceback.sim
